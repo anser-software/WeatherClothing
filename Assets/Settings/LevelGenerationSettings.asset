@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1ec544a9370a2f4ea23a1624a359ab2, type: 3}
+  m_Name: LevelGenerationSettings
+  m_EditorClassIdentifier: 
+  minRunwayLength: 32
+  maxRunwayLength: 32
+  safeRunwayDistanceFront: 5
+  safeRunwayDistanceBack: 2
+  minDistanceBetweenClothingTriggers: 5
+  maxDistanceBetweenClothingTriggers: 5

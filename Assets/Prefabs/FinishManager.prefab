@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1746808054106481757
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1464573480842908101}
+  - component: {fileID: 5626859596764051310}
+  m_Layer: 0
+  m_Name: FinishManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1464573480842908101
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746808054106481757}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.56354976, y: -0.67153716, z: 0.64014673}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5626859596764051310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746808054106481757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 143352a98418dc146a6b3db855440105, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  positiveReactionPrefab: {fileID: 1950505369328545615, guid: 04f69577904c0c047a5e35e1cd4fa354, type: 3}
+  negativeReactionPrefab: {fileID: 966019205950345524, guid: 85e0852376d8a3043ae4355bcd20c790, type: 3}
+  scoreBoardPrefab: {fileID: 6360330720064855644, guid: 04b777a6b6f69694ab39f8eb6a39c85c, type: 3}
+  transitionDuration: 1
+  delayBetweenReactions: 0.5
+  reactionScale: 0.3
+  reactionScaleDuration: 0.5
+  rotateCamSpeed: -3
+  showoffDuration: 2
+  cameraOffsetFromTarget: {x: 0, y: 1, z: 4}
+  targetOffset: {x: 0, y: 1, z: 0}
+  reactionOffsetFromClothing: {x: -0.5, y: -0.1, z: 0}
+  scoreBoradOffsetFromCamera: {x: 0.4, y: -1, z: 2.5}
+  scoreBoardInterval: {x: -0.4, y: 0, z: 0}
