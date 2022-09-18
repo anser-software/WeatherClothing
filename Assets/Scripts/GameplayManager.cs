@@ -90,7 +90,10 @@ public class GameplayManager : MonoBehaviour
 
         enemyClothingManager.ActivateRandomClothing();
 
-        var vfxInstance = Instantiate(clothingSelectVFX[Random.Range(0, clothingSelectVFX.Length)], playerClothingManager.transform.position + clothingVFXOffset, Quaternion.identity);
+        if (clothingSelectVFX.Length > 0)
+        {
+            Instantiate(clothingSelectVFX[Random.Range(0, clothingSelectVFX.Length)], playerClothingManager.transform.position + clothingVFXOffset, Quaternion.identity);
+        }
 
         Time.timeScale = 1F;
 

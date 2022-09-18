@@ -47,6 +47,7 @@ MonoBehaviour:
   positiveReactionPrefab: {fileID: 1950505369328545615, guid: 04f69577904c0c047a5e35e1cd4fa354, type: 3}
   negativeReactionPrefab: {fileID: 966019205950345524, guid: 85e0852376d8a3043ae4355bcd20c790, type: 3}
   scoreBoardPrefab: {fileID: 6360330720064855644, guid: 04b777a6b6f69694ab39f8eb6a39c85c, type: 3}
+  confettiFX: {fileID: 1620116211597326, guid: 1805b6a59d8bf1e4fabb266117b0e2cb, type: 3}
   transitionDuration: 1
   delayBetweenReactions: 0.5
   reactionScale: 0.3

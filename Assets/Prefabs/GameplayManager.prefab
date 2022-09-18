@@ -51,19 +51,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: fed1c36039f4a0b4abb176b4e04df202, type: 3}
   - {fileID: 21300000, guid: c53cc35bdf9c9ab41be9ac2a77144f42, type: 3}
   - {fileID: 21300000, guid: 670dbcc7966010d4abccdbbbb0108bc1, type: 3}
-  clothingSelectVFX:
-  - {fileID: 3471248690330799073, guid: ddbd61d94c6e72a4fb8056427fa868c3, type: 3}
-  - {fileID: 823105810678235112, guid: 37815b2a491d1554fa683b87cb87da53, type: 3}
-  - {fileID: 2891142127367011564, guid: ed6ea7c4e52c44142be905fe66d4142f, type: 3}
-  - {fileID: 8438540530446511976, guid: f405c574e709b6349888ee4c4a526234, type: 3}
-  - {fileID: 7143384408062163021, guid: 8e4b12f959f63dd44a60802101e64b83, type: 3}
-  - {fileID: 3247117974676471829, guid: fb658501ce00ce8479f7e0c71e91729a, type: 3}
-  - {fileID: 495348264535671709, guid: 1e51388aa7dd51245b5bde85b17a6e6e, type: 3}
-  - {fileID: 7145071384342319252, guid: 15e73ddb5b7b09b4dbb22947b8037797, type: 3}
-  - {fileID: 4303019163591933041, guid: 99fd7c8039a2a7b4e98bbe308d0f9f9c, type: 3}
-  - {fileID: 7096782737979062253, guid: 5bcf107eefa7a694c9afca988c8d6172, type: 3}
+  clothingSelectVFX: []
   clothingVFXOffset: {x: 1, y: 1, z: 1}
   selectClothingDuration: 2
   selectClothingTimeScale: 0.2
-  playerClothingManager: {fileID: 0}
-  enemyClothingManager: {fileID: 0}

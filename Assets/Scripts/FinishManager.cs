@@ -9,7 +9,7 @@ public class FinishManager : MonoBehaviour
 {
 
     [SerializeField]
-    private GameObject positiveReactionPrefab, negativeReactionPrefab, scoreBoardPrefab;
+    private GameObject positiveReactionPrefab, negativeReactionPrefab, scoreBoardPrefab, confettiFX;
 
     [SerializeField]
     private float transitionDuration, delayBetweenReactions, reactionScale, reactionScaleDuration, rotateCamSpeed, showoffDuration;
@@ -156,6 +156,13 @@ public class FinishManager : MonoBehaviour
 
             yield return new WaitForSeconds(delayBetweenReactions);
         }
+
+        FinishCompleted();
+    }
+
+    private void FinishCompleted()
+    {
+        var confetti = Instantiate(confettiFX, player.position + Vector3.up * 3F, Quaternion.identity);
 
         GameplayManager.instance.FinishCompleted();
     }
