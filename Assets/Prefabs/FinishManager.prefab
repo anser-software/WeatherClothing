@@ -49,11 +49,11 @@ MonoBehaviour:
   scoreBoardPrefab: {fileID: 6360330720064855644, guid: 04b777a6b6f69694ab39f8eb6a39c85c, type: 3}
   confettiFX: {fileID: 1620116211597326, guid: 1805b6a59d8bf1e4fabb266117b0e2cb, type: 3}
   transitionDuration: 1
-  delayBetweenReactions: 0.5
+  delayBetweenReactions: 0.4
   reactionScale: 0.3
   reactionScaleDuration: 0.5
   rotateCamSpeed: -3
-  showoffDuration: 2
+  showoffDuration: 1.6
   cameraOffsetFromTarget: {x: 0, y: 1, z: 4}
   targetOffset: {x: 0, y: 1, z: 0}
   reactionOffsetFromClothing: {x: -0.5, y: -0.1, z: 0}
