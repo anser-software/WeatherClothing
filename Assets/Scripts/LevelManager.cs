@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using GameAnalyticsSDK;
 public class LevelManager : MonoBehaviour
 {
     
@@ -16,10 +17,13 @@ public class LevelManager : MonoBehaviour
         instance = this;
 
         DontDestroyOnLoad(gameObject);
+
     }
 
     private void Start()
     {
+        GameAnalytics.Initialize();
+
         StartNextLevel();
     }
 
